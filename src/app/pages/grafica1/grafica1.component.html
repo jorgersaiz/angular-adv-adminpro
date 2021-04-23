@@ -1,1 +1,38 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-doughnut
+        [title]="'Ventas mill. unidades'"
+        [data]="data1"
+        [labels]="label1"
+        ></app-doughnut>
+    </div>
+
+    <div class="col-6">
+        <app-doughnut
+        [title]="'Ingresos en mill. dólares'"
+        [data]="data2"
+        [labels]="label1"
+        ></app-doughnut>
+        
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        
+        <app-doughnut
+        [title]="'Costes mill. dólares'"
+        [data]="data3"
+        [labels]="label1"
+        ></app-doughnut>
+    </div>
+
+    <div class="col-6">
+        
+        <app-doughnut
+        [title]="'Beneficio neto mill. dólares'"
+        [data]="data4"
+        [labels]="label1"
+        ></app-doughnut>
+    </div>
+</div>

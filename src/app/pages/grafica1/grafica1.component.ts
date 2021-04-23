@@ -8,9 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Grafica1Component implements OnInit {
 
+  public data1 = [
+    [150, 200, 250]
+  ]
+
+  public data2 = [
+    [5000, 3000, 8500]
+  ]
+
+  public data3 = [
+    [30, 70, 65]
+  ]
+
+  public data4 = [
+    [3200, 1600, 6500]
+  ]
+
+  public label1 = ["PS5", "XBOX", "PC"]
+  
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

@@ -15,7 +15,7 @@ export class DoughnutComponent implements OnInit {
   @Input("data") public doughnutChartData: MultiDataSet = [
     [350, 450, 100]
   ];
-  public doughnutChartType: ChartType = 'doughnut';
+  @Input("type") public doughnutChartType: ChartType = 'doughnut';
   public colors: Color[] = [
     {backgroundColor: ['#6857E6', '#009FEE', '#F02059']}
   ]

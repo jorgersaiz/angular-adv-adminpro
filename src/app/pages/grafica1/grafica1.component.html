@@ -1,6 +1,17 @@
 <div class="row">
     <div class="col-6">
+        <select [(ngModel)]="type1" class="form-control">
+            <option value="doughnut">Doughnut</option>
+            <option value="bar">Bar</option>
+            <option value="pie">Pie</option>
+            <option value="line">Line</option>
+            <option value="scatter">Scatter</option>
+            <option value="radar">Radar</option>
+            <option value="polarArea">Polar Area</option>
+            <option value="bubble">Bubble</option>
+        </select>
         <app-doughnut
+        [type]="type1"
         [title]="'Ventas mill. unidades'"
         [data]="data1"
         [labels]="label1"
@@ -8,7 +19,18 @@
     </div>
 
     <div class="col-6">
+        <select [(ngModel)]="type2" class="form-control">
+            <option value="doughnut">Doughnut</option>
+            <option value="bar">Bar</option>
+            <option value="pie">Pie</option>
+            <option value="line">Line</option>
+            <option value="scatter">Scatter</option>
+            <option value="radar">Radar</option>
+            <option value="polarArea">Polar Area</option>
+            <option value="bubble">Bubble</option>
+        </select>
         <app-doughnut
+        [type]="type2"
         [title]="'Ingresos en mill. dólares'"
         [data]="data2"
         [labels]="label1"
@@ -19,8 +41,18 @@
 
 <div class="row">
     <div class="col-6">
-        
+        <select [(ngModel)]="type3" class="form-control">
+            <option value="doughnut">Doughnut</option>
+            <option value="bar">Bar</option>
+            <option value="pie">Pie</option>
+            <option value="line">Line</option>
+            <option value="scatter">Scatter</option>
+            <option value="radar">Radar</option>
+            <option value="polarArea">Polar Area</option>
+            <option value="bubble">Bubble</option>
+        </select>
         <app-doughnut
+        [type]="type3"
         [title]="'Costes mill. dólares'"
         [data]="data3"
         [labels]="label1"
@@ -28,8 +60,18 @@
     </div>
 
     <div class="col-6">
-        
+        <select [(ngModel)]="type4" class="form-control">
+            <option value="doughnut">Doughnut</option>
+            <option value="bar">Bar</option>
+            <option value="pie">Pie</option>
+            <option value="line">Line</option>
+            <option value="scatter">Scatter</option>
+            <option value="radar">Radar</option>
+            <option value="polarArea">Polar Area</option>
+            <option value="bubble">Bubble</option>
+        </select>
         <app-doughnut
+        [type]="type4"
         [title]="'Beneficio neto mill. dólares'"
         [data]="data4"
         [labels]="label1"

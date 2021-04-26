@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Grafica1Component implements OnInit {
 
+
+  public type1 = "doughnut"
+  public type2 = "doughnut"
+  public type3 = "doughnut"
+  public type4 = "doughnut"
   public data1 = [
     [150, 200, 250]
   ]
